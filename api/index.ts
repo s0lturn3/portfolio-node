@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Habilita o CORS
 app.use(cors({
-  origin: 'http://solturne.dev', // URLs permitidas
+  origin: 'https://solturne.dev', // URLs permitidas
   methods: [ 'OPTIONS', 'GET', 'POST' ],
   allowedHeaders: [ 'Accept', 'Content-Type' ]
 }));
